@@ -16,7 +16,7 @@ export default function Profile() {
       <h2>Profile Page</h2>
 
       {isLoggedIn ? (
-        <div>
+        <div className="container"> 
           <p>Welcome, {username} </p>
           <button onClick={logout}>Logout</button>
         </div>

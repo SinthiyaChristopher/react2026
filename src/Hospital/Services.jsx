@@ -3,7 +3,7 @@ import { Link, Outlet } from 'react-router-dom'
 
 export default function Services() {
   return (
-    <div className="header3">
+    <div className="container">
         <h2>Services</h2>
         <div className="header2">
             <Link to = {"doctor"}>Doctors</Link>

@@ -15,7 +15,7 @@ export default function Appointment() {
     nameRef.current.value = "";
   };
   return (
-    <div>
+    <div className="container">
         <h3>Appointments</h3>
       <form onSubmit={handleSubmit}>
         <input ref={nameRef} placeholder="Patient Name" />

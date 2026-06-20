@@ -27,7 +27,7 @@ export default function Doctor() {
     };
 
   return (
-    <div>
+    <div className="container">
         <h3>Doctors</h3>
          <input
         type="text"

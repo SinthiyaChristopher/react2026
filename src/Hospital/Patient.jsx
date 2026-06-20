@@ -22,7 +22,7 @@ export default function Patient() {
         setName("");
     };
   return (
-    <div>
+    <div className="container">
      <h2>Patients</h2>
      <input
         type="text"

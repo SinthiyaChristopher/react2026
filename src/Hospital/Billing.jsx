@@ -24,7 +24,7 @@ export default function Billing() {
   };
 
   return (
-    <div>
+    <div className="container">
       <h3>Billing</h3>
       <input
         type="text"
