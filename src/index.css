@@ -1,0 +1,47 @@
+.header{
+  background: wheat;
+  display: flex;
+  padding: 20px 50px;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+}
+.header2{
+  background: wheat;
+  display: flex;
+  padding: 20px 50px;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+
+}
+body {
+  background-color: white;
+}
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+@media(max-width:768px){
+  .header, .header2{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  input, button{
+    width:100%;
+    margin-bottom: 10px;
+  }
+  .container{
+    padding:10px;
+  }
+}
